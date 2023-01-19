@@ -1,0 +1,43 @@
+.bg-light {
+  background: #fff !important;
+}
+
+.width {
+  width: 100% !important;
+}
+
+.text-light {
+  color: #face30 !important;
+}
+
+.list-style {
+  // text-decoration: underline !important;
+  color: #face30 !important;
+}
+
+.list-style li a:hover {
+  color: #face30 !important;
+}
+
+.button {
+  border: none;
+}
+
+.nav-dark {
+  color: #fff !important;
+}
+
+.navigation {
+  padding: 0 2.5rem;
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    padding: 5px 5px;
+  }
+}

@@ -1,0 +1,75 @@
+<!-- The navbar section -->
+<section class="bg-light">
+  <nav class="navbar navbar-light navbar-expand-lg bg-light navigation">
+    <div class="container-fluid p-1">
+      <a [routerLink]="['']" class="navbar-brand brand_logo">
+        <span class="text-light fs-4 fw-bolder Mulish">ZEEMARI</span>
+      </a>
+
+      <button
+        type="button"
+        class="navbar-toggler button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav list-style ms-auto mb-2 mb-lg-0">
+          <li class="nav-item me-3">
+            <a
+              class="nav-link text-dark fs-6 Mulish text-light"
+              [routerLink]="['/why-zeekart']"
+              routerLinkActive="active"
+            >
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item me-3 brand_logo">
+            <a
+              class="nav-link text-dark fs-6 Mulish"
+              [routerLink]="['/contact-us']"
+              routerLinkActive="active"
+              >About me</a
+            >
+          </li>
+          <li class="nav-item me-3 brand_logo">
+            <a
+              class="nav-link text-dark fs-6 Mulish"
+              [routerLink]="['/contact-us']"
+              routerLinkActive="active"
+              >Portfolio</a
+            >
+          </li>
+          <!-- <li class="nav-item me-3 brand_logo">
+            <a
+              class="nav-link text-dark fs-6 Mulish"
+              [routerLink]="['/contact-us']"
+              routerLinkActive="active"
+              >Experience</a
+            >
+          </li> -->
+          <li class="nav-item me-3 brand_logo">
+            <a
+              class="nav-link text-dark fs-6 Mulish"
+              [routerLink]="['/contact-us']"
+              routerLinkActive="active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<!-- The router outlet for the header section -->
+<div class="wrapper">
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</div>

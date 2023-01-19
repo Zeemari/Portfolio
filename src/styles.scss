@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Mulish;
+  src: url(assets/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+
+.Mulish {
+  font-family: Mulish;
+}
+
+@font-face {
+  font-family: Oleo;
+  src: url(assets/fonts/OleoScript-Regular.ttf) format("truetype");
+}
+
+.Oleo {
+  font-family: Oleo;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+.Poppins {
+  font-family: Poppins;
+}
